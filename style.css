@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+
+}
+
+
+.nav-links {
+    margin-left: auto;
+    display: inline-flex;
+    justify-content:space-evenly;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+li,a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.5s ease-in-out;
+}
+a:hover{
+    color: blue;
+}
+.logo {
+    cursor:pointer;
+
+}
+.nav-links a,.logo {
+    list-style:none;
+
+    padding: 0px 20px;
+    
+    
+}
+
+.srch {
+    margin-left: 30px;
+    width: 32px;
+    height: 32px;
+}
+.moon {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 25px;
+    height: 24px;
+}
+
+.section-1 {
+    padding: 90px;
+}
+.bullet {
+    list-style: decimal;
+}
