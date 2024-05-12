@@ -6,9 +6,15 @@
 }
 header {
     display: flex;
-    flex-wrap: wrap;
-    padding: 30px 0px;
     justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 104px;
+
+}
+.logo {
+    margin-top: 25px;
+    cursor:pointer;
 
 }
 
@@ -33,12 +39,7 @@ li,a {
 a:hover{
     color: blue;
 }
-.logo {
-    height: 27px;
-    width: 107px;
-    cursor:pointer;
 
-}
 .nav-links a,.logo {
     list-style:none;
 
