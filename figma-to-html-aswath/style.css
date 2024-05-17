@@ -181,7 +181,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   header {
     margin: 64px 100px 124px 101px;
   }
@@ -229,4 +229,4 @@ h3 {
     height: 400px;
     gap: 50px;
   }
-}
+} */

@@ -2,70 +2,41 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    background-color: rgb(255, 255, 255);
+    
 }
 header {
     display: flex;
     justify-content: space-between;
-    margin-left:101px;
-    margin-right:101px;
-    margin-bottom: 124px;
-    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 104px;
 
 }
 .logo {
     cursor:pointer;
-    width:auto;
+    margin-top: 25px;
+   
 }
 .icon {
-    
-}
-
-
-.nav-links {
-    margin-left: auto;
-    display: inline-flex;
-    justify-content:space-evenly;
-    
+    margin-top: 29px;
     cursor: pointer;
 }
 
+.nav-menu {
 
-li,a {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.5s ease-in-out;
+    display: none;
+/* Setting this like this will make it dissappear but we can later change it incase we want (We want it to appear as a desktop site...hence this stufff) */
+
 }
-a:hover{
-    color: blue;
+.section-one {
+    padding-left: 16px;
+    margin-right: 16px;
 }
 
-.nav-links a {
-    list-style:none;
 
-    padding: 0px 20px;
-    
-    
-}
 
-.srch {
-    margin-left: 30px;
-    width: 32px;
-    height: 32px;
-}
-.moon {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 25px;
-    height: 24px;
-}
 
-.section-1 {
-    padding: 90px;
-}
+
 .bullet {
     list-style: decimal;
 }
