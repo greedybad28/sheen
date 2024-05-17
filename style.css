@@ -45,7 +45,90 @@ header {
 
 .opaque-text {
     color: rgb(99, 99, 99);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 24px;
+    font-weight: 400;
+    line-height: normal;
+
 }
+.first-image {
+    max-width: 100%;
+    margin-bottom: 39px;
+}
+.text-section {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 56px;
+}
+.text-subheading {
+    margin-right: 16px;
+    margin-bottom: 56px;
+}
+
+.text-subheading {
+    color: #060606;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+/* all p and ul and ol get the font colorrr */
+p,ul,ol {
+    color: black;
+    margin-bottom: 16px;
+    line-height: 25px;
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+}
+ul,ol {
+    padding-left: 18px;
+}
+ blockquote {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    color: #767676;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 60px;
+ }
+ hr{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 48px;
+ }
+ h3 {
+    color: #060606;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;  
+ }
+
+ .image-section {
+    margin-left: 16px;
+    margin-right: 16px;
+ }
+ .images-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+
 
 
 
