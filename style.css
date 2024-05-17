@@ -33,6 +33,19 @@ header {
     margin-right: 16px;
 }
 
+.section-one-heading {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 24px;
+}
+
+.opaque-text {
+    color: rgb(99, 99, 99);
+}
 
 
 
