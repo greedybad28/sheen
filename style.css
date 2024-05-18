@@ -151,7 +151,8 @@ ul,ol {
     margin-right: 16px;
 }
 .last-image-one {
-    width: 100%;
+    width: 70%;
+
 }
 .footer-text {
     text-align: center;
@@ -184,10 +185,79 @@ ul,ol {
     line-height: 25px;
 }
 .icons {
+    width: 156px;
+    height: 19px;
+    margin-top: 24px;
+    margin-left: 80px;
+    margin-right: 84px;
+    margin-bottom: 46px;
+}
+.icon-class {
     display: flex;
     justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
+}
+
+/* HERE COMES MEDIAQUERY */
+
+
+@media only screen and (min-width: 768px) {
+    header {
+        margin: 64px 100px 124px 101px ;
+        
+    }
+    .logo {
+        margin: 0px;
+    }
+    .nav-menu  {
+        display:flex;
+        gap: 64px;
+    }
+    .icon {
+        display:none;
+    }
+    .logo {
+        width: 112px;
+        height: 27px;
+    }
+
+    .sections-set-one {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .first-image {
+        width: 100%;
+        height: 500px;
+    }
+    .sections-set-two {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .last-image-one {
+        width: 100%;
+        height: 500px;
+      }
+    .video-description{
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    .image-tile {
+        width: 380px;
+        height: 400px;
+        gap: 50px;
+      }
+    .nav-menu a {
+        color: black;
+        text-decoration: wavy;
+        transition-duration: 0.1s;
+    }
+    .nav-menu a:hover {
+        color: blue;
+        padding-top: 2px;
+
+    }
+
+    
+
 }
 
 
